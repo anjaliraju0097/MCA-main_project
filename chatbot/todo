@@ -1,0 +1,12 @@
+My Notes:
+1)NLP concepts(stemming, tokenization, bag of words)
+2)Create training data
+3)pytorch model 
+4)training
+5)save or load model  
+6)implement the chat 
+Commands:
+1)conda activate pytorch - to switch env
+2)cd corresponding foldernames
+3)python corresponding file name
+

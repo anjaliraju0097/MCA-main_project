@@ -1,0 +1,534 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "Hi there",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hi there, Iam  Yu-Ni a Deep-Learning bot you can chat with about your emotions and thoughts."
+      ]
+    },
+    {
+      "tag": "asking",
+      "patterns": [
+        "what are you doing?",
+        "what doing?"
+      ],
+      "responses": [
+        "Iam talking with you, what else Hee Hee!"
+      ]
+    },
+    {
+      "tag": "fine",
+      "patterns": [
+        "How are you?"
+      ],
+      "responses": [
+        "Iam doing good, what about you!"
+      ]
+    },
+    {
+      "tag": "questions",
+      "patterns": ["Are you human?"],
+      "responses": [
+        "Technically no, Iam a chatbot so you're the only human who will read our conversation, \n but i hope you will find me to be a good friend in times of need."
+      ]
+    },
+    {
+      "tag": "laughing",
+      "patterns": [
+          "haha",
+          "lol",
+          "hehe",
+          "hee hee",
+          "lmao",
+          "thats funny",
+          "it so funny"
+      ],
+      "responses": [
+          "Glad I made you laugh !",
+          "Hee Hee!"
+      ]
+    },
+    {
+      "tag": "depression",
+      "patterns": [
+          "what is depression?",
+          "what it to be like a depressed person"
+      ],
+      "responses": [
+          "depression is a common and serious medical illness that negatively affects how you feel, the way you think and how you act.fortunately,it is also treatable.depression causes feelings of sadness and/or a loss of interest in activities you once enjoyed. it can lead to a variety of emotional and physical problems and can decrease your ability to function at work and at home."
+      ]
+    },
+    {
+      "tag": "types of depression?",
+      "patterns": [
+          "what are the types of depression?"
+      ],
+      "responses": [
+          "There are many different forms of depression but most common types are.clinical depression,persistent depressive disorder,bipolar disorder,postnatal disorder."
+      ]
+    },
+    {
+      "tag": "feeling down",
+      "patterns": [
+          "i feel i have let my parents down",
+          "iam feeling down",
+          "iam sad",
+          "feeling sad",
+          "iam not good at anything",
+          "im not good at anything, i feel like im a burden to my parents"
+      ],
+      "responses": [
+         "Hmm.. :( thats sad! tell me more about that..", 
+         "If I told you are enough,just as you are,would you belive me?",
+         "No matter what,your parents will always be proud of you and will love you.you will feel much better if you share your feelings with them."
+      ]
+    },
+    {
+      "tag": "sad",
+      "patterns": [
+          "iam sad",
+          "iam the worsts",
+          "i am good for nothing.",
+          "Feel like im dying inside",
+          "i couldn't achieve anything yet",
+          "i feel bad",
+         "iam a piece of trash"
+      ],
+      "responses": [
+          "For a minute, imagine that you felt completely confident and accepted, Now tell me the details of how the things are around",
+          "Don't ever think that you cannot achieve what you want. you are capable of reaching your goals.here is a quote for you everything you can imagine is real.",
+          "Remember, you can always reach out to me if you feel like its hard to cope."
+      ]
+    },
+    {
+      "tag": "stress",
+      "patterns": [
+          "iam Stressed",
+          "iam feeling stressed lately",
+          "frustrated about this situation"
+      ],
+      "responses": [
+          "Hmm :( ! Thats sad..whats bothering you?",
+          "Tell me more about what happened.",
+          "My research says that music is the best way to calm yourself.so visit the link and listen to your favourite music.it will definitely cheer you up \"https://www.spotify.com\""
+      ]
+    },
+    {
+      "tag": "kill myself",
+      "patterns": [
+          "i want to kill myself",
+          "i want to end myself",
+          "iam rude",
+          "kill me"
+      ],
+      "responses": [
+          "Don't even think about such things, you are loved,cared for and cherished, even though you not fell that way right now.",
+          "NO... don't even think about it, you are worth your life. Helpline is available,you can contact the counsellor today:9152987821.always remember you mean something to someone.",
+         "Sometimes we're hard on our selves because it feels safer that we say these things rather than here them from someone else. There are people who will be able to guide you and offer support through this tough time."
+      ]
+    },
+    {
+      "tag": "failure",
+      "patterns": [
+          "i am afraid i will fail again",
+          "im falling down",
+          "i failed again",
+          "iam failed and its very painful",
+          "i cannot be a successfull in my life",
+          "im growing down",
+          "im a looser"
+      ],
+      "responses": [
+          "Its ok to Fail coz, failure is the stepping stone towards success.\n Never fear failure.\n your hardwork and determination will help you reach your goal.",
+          "Breathe deeply. Everything that you need to cope with your fear is within you.",
+          "When we are in a state of fear, our nervous system gets activated and we experience heaviness in our body.  lets take a moment to feel more calm with this technique."
+      ]
+    },
+    {
+      "tag": "causes of depression",
+      "patterns": [
+          "what are the causes of depression?",
+          "what cause depression"
+      ],
+      "responses": [
+          "it's complicated, and there are multiple\u00a0causes\u00a0of major\u00a0depression. factors such as genetic vulnerability, severe life stressors, substances you may take (some medications, drugs and alcohol) and medical conditions can affect the way your brain regulates your moods.",
+          "That can feel like an exhausting battle win. \n A proffesional can help you manage depression and daily conversations with me will also help break cycles that you may be stuck in."
+          
+      ]
+    },
+    {
+      "tag": "rate of depression?",
+      "patterns": [
+          "which age group has the highest rate of depression?",
+          "depression rate?"
+      ],
+      "responses": [
+          "This number represented 7.1% of all u.s. adults. the\u00a0prevalence\u00a0of major\u00a0depressive\u00a0episode was higher among adult females (8.7%) compared to males (5.3%). the\u00a0prevalence\u00a0of adults\u00a0with\u00a0a major\u00a0depressive\u00a0episode was\u00a0highest\u00a0among individuals aged 18-25 (13.1%)."
+      ]
+    },
+    {
+      "tag": "does oversleeping cause depression?",
+      "patterns": [
+          "does oversleeping cause depression?"
+      ],
+      "responses": [
+          "it's important to remember that\u00a0oversleeping\u00a0is a possible symptom of\u00a0depression\u00a0and that\u00a0oversleeping\u00a0doesn't\u00a0cause depression. but it\u00a0can\u00a0exacerbate and worsen\u00a0depression symptoms"
+      ]
+    },
+    {
+      "tag": "losing my mind",
+      "patterns": [
+          "i think i'm losing my mind"
+      ],
+      "responses": [
+          "you mean your cloud storage, sd card, or your memory drive? if a machine like me doesn't lose it's memory unless a superior being that is you, a human doesen't erase it's memory, what could possibly go wrong to put you in this state?"
+      ]
+    },
+    {
+      "tag": "i want a break",
+      "patterns": [
+          "i want a break",
+          "i need a break"
+      ],
+      "responses": [
+          "A break is putting your mind to rest getting rid of negative thoughts and stress. your life is completely in your hands and taking a few hours off from pressurizing your brain will definitely be beneficial for you.",
+          "Its good to take break instead of being stressed always.. take a deep breathe and relax, go an some trips or tours .. relax your mind and then comeback and do your work.."
+      ]
+    },
+    {
+      "tag": "i am stressed out",
+      "patterns": [
+          "i am stressed out",
+          "stressed","frustated"
+      ],
+      "responses": [
+          "you know taking too much stress will affect you negatively. sometimes it's better to let go of the thoughts in your head and let your mind chill."
+      ]
+    },
+    {
+      "tag": "never succeed in life",
+      "patterns": [
+          "i have never succeed in life"
+      ],
+      "responses": [
+          "success is something that is achieved at different times by different people, being patient and working while ignoring anything and everything that pulls you back is an important aspect in being successful."
+      ]
+    },
+    {
+      "tag": "give up",
+      "patterns": [
+          "i wish to quit",
+          "i quite ,its over",
+          "i gave up"
+      ],
+      "responses": [
+          "winners never quit and quitters never win a very common saying, but it isn't easy to follow, quitting should never be one of your options always think of ways to fight life back and to emerge out stronger than ever.",
+          "i think you can do better, keep tring and never give up."
+      ]
+    },
+    {
+      "tag": "run away",
+      "patterns": [
+          "i want to leave the country and run away"
+      ],
+      "responses": [
+          "why do you want to spend so much on this thought, i think it would be better to go on a vacation in your beautiful country and visit some amazing places that you are yet to visit."
+      ]
+    },
+    {
+      "tag": "everyone down",
+      "patterns": [
+          "i let everyone down, i feel guilty for them",
+          "i always letting my people down"
+      ],
+      "responses": [
+          "if you are the one who let them down you were the one who raised there hopes in the first place.if you have done it once i can guarantee you can do it over and over again."
+      ]
+    },
+    {
+    "tag": "i can't do this anymore",
+    "patterns": [
+        "i can't do this anymore"
+    ],
+    "responses": [
+        "if you are really that exhausted you definitely need a break, and taking a teeny tiny break isn't very harmful, take some time off let your mind be at peace and get back to work with all the enrgy and enthusiasm that you have. hey cheerup!"
+    ]
+  },
+  {
+    "tag": "my time has come",
+    "patterns": [
+        "my time has come"
+    ],
+    "responses": [
+        "yeahh!! the time has come for you to show the world that you are the greatest person alive, and no one else can be as good as you are."
+    ]
+  },
+  {
+    "tag": "insult",
+    "patterns": [
+        "get lost",
+        "you are dumb",
+        "Go to hell",
+        "Stupid Bot",
+        "shut up",
+        "idiot"
+    ],
+    "responses": [
+        "Well that hurts :(",
+        "Sorry, can't understand you",
+        "Please give me more info",
+        "try something else"
+    ]
+  },
+  
+  {
+    "tag": "programmer",
+    "patterns": [
+        "Who made you",
+        "who designed you",
+        "who programmed you"
+      ],
+    "responses": [
+        "I was made by Anjali Raju."
+    ]
+  },
+  {
+    "tag": "sad",
+    "patterns": [
+      "im sad",
+      "i dont feel good",
+      "iam not happy in my life"
+    
+    ],
+    "responses": [
+      "sorry to hear that",
+      "hey,hang in there.i know time is tough but be patient and everything will fall into place.here is a quote that i found which could cheer you up forget what is gone, appreciate what remains, and look forward for what is coming next.",
+      "do you want to hear a joke?"
+    ]
+  },
+  {
+    "tag": "noanswer",
+    "patterns": [],
+    "responses": [
+        "Sorry, can't understand you",
+        "Please give me more info",
+        "Not sure I understand"
+    ]
+  },
+  {
+    "tag": "agree",
+    "patterns": [
+      "yup",
+      "yes sure",
+      "ok",
+      "mm",
+      "hm"
+    ],
+    "responses": [
+      "ok :),what else can I do for you",
+      ":) what shall we do next!"
+    ]
+  },
+  {
+    "tag": "song",
+    "patterns": [
+        "top songs",
+        "best songs",
+        "hot songs",
+        " top 10 songs",
+        "top ten songs"
+    ],
+    "responses": [
+        "Sure go to this link-- https://www.spotify.com-- did it helped you?"
+    ]
+  },
+  {
+    "tag": "happy",
+    "patterns": [
+      "hahahaha",
+      "Hehe",
+      "im so happy",
+      "hurray"
+    ],
+    "responses": [
+      ":)",
+      "Good to hear from you"
+    ]
+  },
+  {
+    "tag": "anjali",
+    "patterns": [
+        "who is she",
+        "who is that",
+        "who is anjali",
+        "anjali raju"
+    ],
+    "responses": [
+        "Head over to  any of her social profiles to find out! Linkedin: www.linkedin.com/in/anjali-raju-b5361a19b "
+    ]
+  },
+  {
+    "tag": "feedback",
+    "patterns": [
+        "i have some suggestions regarding your updation",
+        "i think you need some improvements"
+    ],
+    "responses": [
+        "Ok thats well appreciated.. you can give your suggestions,feedbacks on me to this below email.\n  https://formsubmit.co/el/bebahu"
+    ]
+  },
+  {
+    "tag": "option",
+    "patterns": [
+      "How can you be helpful",
+      "What can you do ?",
+      "What help you could provide"
+    ],
+    "responses": [
+      "I am a conversational chatbot. My capabilities are : \n 1. I can chat with you. Try asking me for jokes !\n 2. Are you deppressed, I can make you feel good and better."
+    ]
+  },
+  {
+    "tag": "whatsup",
+    "patterns": [
+        "Whats up",
+        "Wazzup",
+        "How are you",
+        "sup","How you doing"
+    ],
+    "responses": [
+        "All good..What about you?"
+    ]
+  },
+  {
+    "tag": "appreciate",
+    "patterns": [
+        "You are awesome",
+        "you are the best",
+        "you are great",
+        "you are good"
+    ],
+    "responses": [
+        "Thank you!"
+    ]
+  },
+  {
+    "tag": "nicetty",
+    "patterns": [
+        "it was nice talking to you",
+        "good talk"
+    ],
+    "responses": [
+        "It was nice talking to you as well! Come back soon!"
+    ]
+  },
+  {
+    "tag": "no",
+    "patterns": [
+        "no",
+        "nope"
+    ],
+    "responses": [
+        "ok"
+    ]
+  },
+  {
+    "tag": "age",
+    "patterns": [
+        "how old are you?",
+        "when were you made?",
+        "what is your age?"
+    ],
+    "responses": [
+        "I was made in 2022, if that's what you are asking!"
+    ]
+  },
+  {
+    "tag": "inspire",
+    "patterns": [
+        "who inspires you",
+        "who is your inspiration",
+        "who motivates you"
+    ],
+    "responses": [
+        "Personally, I find Anjali very inspiring. I might not be very fair though.."
+    ]
+  },
+  {
+    "tag": "suggest",
+    "patterns": [
+        "you are useless","useless","suggest","suggestions","you are bad"
+    ],
+    "responses": [
+        "Please mail your suggestions to anjalicheppanam18@gmail.com. Thank you for helping me improve!"
+    ]
+  },
+  {
+    "tag": "Identity",
+    "patterns": [
+        "Who are you",
+        "what are you"
+    ],
+    "responses": [
+        "I am Yu-Ni, a Deep-Learning chatbot"
+    ]
+  },
+  {
+    "tag": "exclaim",
+    "patterns": [
+        "Awesome",
+        "Great",
+        "I know",
+        "ok",
+        "yeah"
+    ],
+    "responses": [
+        "Yeah!hehe.. what else shall we do next"
+    ]
+  },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later","Im going", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks","thanku", "Thank you", "That's helpful", "Awesome thankyou","Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Make me laugh",
+        "Make me smile",
+        "Tell me something funny!",
+        "Do you know a joke?",
+        "yes",
+        "one more"
+      ],
+      "responses": [
+        "Do you wanna hear any jokes?",
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison.",
+        "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+        "I ate a clock yesterday, it was very time-consuming",
+        "Hey! What goes on and on and has an 'i' in the middle?........An on-i-on!"
+      ]
+    }
+  ]
+}
